@@ -1,0 +1,19 @@
+{
+    "lists":[
+        {
+            "name":"DenseNet121",
+            "path":"models/v100-2/CIFAR/DenseNet121_adv.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"ResNet18",
+            "path":"models/v100-2/CIFAR/ResNet18_adv.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"ResNet152",
+            "path":"models/v100-2/CIFAR/ResNet152_adv.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}

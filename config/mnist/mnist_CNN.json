@@ -1,0 +1,73 @@
+{
+    "jobs": [
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "CNN",
+                "hidden_size": 20000,
+                "channels": [
+                    32,
+                    32,
+                    64,
+                    64
+                ]
+            },
+            "logfilename": "./log/MNIST/CNN_f1.log",
+            "savename": "./models/MNIST/CNN_f1.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "CNN",
+                "hidden_size": 20000,
+                "channels": [
+                    64,
+                    64,
+                    128,
+                    128
+                ]
+            },
+            "logfilename": "./log/MNIST/CNN_f2.log",
+            "savename": "./models/MNIST/CNN_f2.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "CNN",
+                "hidden_size": 20000,
+                "channels": [
+                    128,
+                    128,
+                    256,
+                    256
+                ]
+            },
+            "logfilename": "./log/MNIST/CNN_f4.log",
+            "savename": "./models/MNIST/CNN_f4.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        }
+    ]
+}

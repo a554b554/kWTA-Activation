@@ -1,0 +1,28 @@
+{
+    "lists":[
+        {
+            "name":"momentum",
+            "n_test":1000,
+            "epsilon":0.031
+        },
+        {
+            "name":"deepfool",
+            "n_test":1000,
+            "epsilon":0.031,
+            "alpha":0.007,
+            "steps":20,
+            "subsample":10
+        },
+        {
+            "name":"CW",
+            "n_test":1000,
+            "epsilon":0.031,
+            "d":"linf",
+            "binary_search_steps":5,
+            "max_iterations":10,
+            "confidence":0,
+            "learning_rate":0.01,
+            "initial_const":0.01
+        }
+    ]
+}

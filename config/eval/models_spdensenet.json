@@ -1,0 +1,41 @@
+{
+    "lists":[
+        {
+            "name":"spDenseNet121",
+            "sp":0.3,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.3.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spDenseNet121",
+            "sp":0.2,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.2.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spDenseNet121",
+            "sp":0.1,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.1.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spDenseNet121",
+            "sp":0.07,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.07.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spDenseNet121",
+            "sp":0.03,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.03.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spDenseNet121",
+            "sp":0.01,
+            "path":"models/tf2/CIFAR/spDenseNet121_sp0.01.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}
+

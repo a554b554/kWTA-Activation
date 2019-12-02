@@ -1,0 +1,12 @@
+{
+    "lists":[
+        {
+            "name":"spResNet18",
+            "sp":0.12,
+            "path":"models/SVHN_main/spResNet18_sp0.12_adv.pth",
+            "dataset":"SVHN"
+        }
+   
+    ]
+}
+

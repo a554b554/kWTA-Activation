@@ -1,0 +1,41 @@
+{
+    "lists":[
+        {
+            "name":"spResNet34",
+            "sp":0.3,
+            "path":"models/CIFAR/spResNet34_sp0.3.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet34",
+            "sp":0.2,
+            "path":"models/CIFAR/spResNet34_sp0.2.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet34",
+            "sp":0.1,
+            "path":"models/CIFAR/spResNet34_sp0.1.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet34",
+            "sp":0.07,
+            "path":"models/CIFAR/spResNet34_sp0.07.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet34",
+            "sp":0.03,
+            "path":"models/CIFAR/spResNet34_sp0.03.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet34",
+            "sp":0.01,
+            "path":"models/CIFAR/spResNet34_sp0.01.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}
+

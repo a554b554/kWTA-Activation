@@ -1,0 +1,16 @@
+{
+    "lists":[
+        {
+            "name":"ResNet18",
+            "path":"models/CIFAR/black_box/ResNet18.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet18",
+            "sp":0.08,
+            "path":"models/CIFAR/black_box/spResNet18_ft_sp0.08.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}
+

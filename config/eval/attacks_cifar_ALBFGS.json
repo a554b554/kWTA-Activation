@@ -1,0 +1,9 @@
+{
+    "lists":[
+        {
+            "name":"pointwise",
+            "n_test":1000,
+            "epsilon":0.031
+        }
+    ]
+}

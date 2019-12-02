@@ -1,0 +1,30 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.1
+            },
+            "adv_train": {
+                "attack": "trade"
+            },
+            "logfilename": "./log/CIFAR/spResNet18_sp0.1_trade.log",
+            "savename": "./models/CIFAR/spResNet18_sp0.1_trade.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 2000,
+            "train_batch_size": 256,
+            "test_batch_size": 32
+        }
+    ]
+}

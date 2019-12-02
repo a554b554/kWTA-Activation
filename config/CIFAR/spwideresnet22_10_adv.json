@@ -1,0 +1,33 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "sp": 0.1,
+                "depth": 22,
+                "width": 10
+            },
+            "adv_train": {
+                "attack": "ml"
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_sp0.1_adv2.log",
+            "savename": "./models/CIFAR/spWideResNet_sp0.1_adv2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 256,
+            "test_batch_size": 32
+        }
+    ]
+}

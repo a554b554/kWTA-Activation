@@ -1,0 +1,229 @@
+{
+    "jobs": [
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    32,
+                    32,
+                    64,
+                    64
+                ],
+                "sp1": 0.007,
+                "sp2": 0.007
+            },
+            "logfilename": "./log/MNIST/spCNN_f1_sp0.007.log",
+            "savename": "./models/MNIST/spCNN_f1_sp0.007.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    32,
+                    32,
+                    64,
+                    64
+                ],
+                "sp1": 0.004,
+                "sp2": 0.004
+            },
+            "logfilename": "./log/MNIST/spCNN_f1_sp0.004.log",
+            "savename": "./models/MNIST/spCNN_f1_sp0.004.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    32,
+                    32,
+                    64,
+                    64
+                ],
+                "sp1": 0.001,
+                "sp2": 0.001
+            },
+            "logfilename": "./log/MNIST/spCNN_f1_sp0.001.log",
+            "savename": "./models/MNIST/spCNN_f1_sp0.001.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    64,
+                    64,
+                    128,
+                    128
+                ],
+                "sp1": 0.007,
+                "sp2": 0.007
+            },
+            "logfilename": "./log/MNIST/spCNN_f2_sp0.007.log",
+            "savename": "./models/MNIST/spCNN_f2_sp0.007.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    64,
+                    64,
+                    128,
+                    128
+                ],
+                "sp1": 0.004,
+                "sp2": 0.004
+            },
+            "logfilename": "./log/MNIST/spCNN_f2_sp0.004.log",
+            "savename": "./models/MNIST/spCNN_f2_sp0.004.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    64,
+                    64,
+                    128,
+                    128
+                ],
+                "sp1": 0.001,
+                "sp2": 0.001
+            },
+            "logfilename": "./log/MNIST/spCNN_f2_sp0.001.log",
+            "savename": "./models/MNIST/spCNN_f2_sp0.001.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    128,
+                    128,
+                    256,
+                    256
+                ],
+                "sp1": 0.007,
+                "sp2": 0.007
+            },
+            "logfilename": "./log/MNIST/spCNN_f4_sp0.007.log",
+            "savename": "./models/MNIST/spCNN_f4_sp0.007.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    128,
+                    128,
+                    256,
+                    256
+                ],
+                "sp1": 0.004,
+                "sp2": 0.004
+            },
+            "logfilename": "./log/MNIST/spCNN_f4_sp0.004.log",
+            "savename": "./models/MNIST/spCNN_f4_sp0.004.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spCNN",
+                "hidden_size": 10000,
+                "channels": [
+                    128,
+                    128,
+                    256,
+                    256
+                ],
+                "sp1": 0.001,
+                "sp2": 0.001
+            },
+            "logfilename": "./log/MNIST/spCNN_f4_sp0.001.log",
+            "savename": "./models/MNIST/spCNN_f4_sp0.001.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        }
+    ]
+}

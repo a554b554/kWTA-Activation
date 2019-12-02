@@ -1,0 +1,38 @@
+{
+    "lists":[
+
+        {
+            "name":"PGD",
+            "n_test":2000,
+            "epsilon":0.047,
+            "alpha":0.007,
+            "num_iter":20
+            
+        },
+        {
+            "name":"momentum",
+            "n_test":1000,
+            "epsilon":0.047
+        },
+        {
+            "name":"deepfool",
+            "n_test":1000,
+            "epsilon":0.047,
+            "alpha":0.007,
+            "steps":20,
+            "subsample":10
+        },
+        {
+            "name":"CW",
+            "n_test":1000,
+            "epsilon":0.047,
+            "d":"linf",
+            "binary_search_steps":5,
+            "max_iterations":10,
+            "confidence":0,
+            "learning_rate":0.01,
+            "initial_const":0.01
+        }
+
+    ]
+}

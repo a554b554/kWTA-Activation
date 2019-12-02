@@ -1,0 +1,184 @@
+{
+    "jobs": [
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 10000,
+                "sp": 0.008
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.008_h10000.log",
+            "savename": "./models/MNIST/spDNN_sp0.008_h10000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 10000,
+                "sp": 0.005
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.005_h10000.log",
+            "savename": "./models/MNIST/spDNN_sp0.005_h10000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 10000,
+                "sp": 0.003
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.003_h10000.log",
+            "savename": "./models/MNIST/spDNN_sp0.003_h10000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 10000,
+                "sp": 0.002
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.002_h10000.log",
+            "savename": "./models/MNIST/spDNN_sp0.002_h10000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 10000,
+                "sp": 0.001
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.001_h10000.log",
+            "savename": "./models/MNIST/spDNN_sp0.001_h10000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 20000,
+                "sp": 0.008
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.008_h20000.log",
+            "savename": "./models/MNIST/spDNN_sp0.008_h20000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 20000,
+                "sp": 0.005
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.005_h20000.log",
+            "savename": "./models/MNIST/spDNN_sp0.005_h20000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 20000,
+                "sp": 0.003
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.003_h20000.log",
+            "savename": "./models/MNIST/spDNN_sp0.003_h20000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 20000,
+                "sp": 0.002
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.002_h20000.log",
+            "savename": "./models/MNIST/spDNN_sp0.002_h20000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        },
+        {
+            "eps": 0.3,
+            "alpha": 0.01,
+            "model": {
+                "name": "spDNN",
+                "hidden_size": 20000,
+                "sp": 0.001
+            },
+            "logfilename": "./log/MNIST/spDNN_sp0.001_h20000.log",
+            "savename": "./models/MNIST/spDNN_sp0.001_h20000.pth",
+            "epoch": 20,
+            "adv_train": false,
+            "lr": 0.01,
+            "momentum": 0.9,
+            "train_batch_size": 200,
+            "test_batch_size": 100,
+            "n_test_adv": 1000
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "jobs": [
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.12
+            },
+            "adv_train": {
+                "attack": "ml"
+            },
+            "logfilename": "./log/SVHN/spResNet18_sp0.12_adv.log",
+            "savename": "./models/SVHN/spResNet18_sp0.12_adv.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        }
+    ]
+}

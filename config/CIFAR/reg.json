@@ -1,0 +1,142 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "DenseNet121"
+            },
+            "logfilename": "./log/CIFAR/DenseNet121.log",
+            "savename": "./models/CIFAR/DenseNet121.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet18"
+            },
+            "logfilename": "./log/CIFAR/ResNet18.log",
+            "savename": "./models/CIFAR/ResNet18.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 128,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet34"
+            },
+            "logfilename": "./log/CIFAR/ResNet34.log",
+            "savename": "./models/CIFAR/ResNet34.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 128,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet50"
+            },
+            "logfilename": "./log/CIFAR/ResNet50.log",
+            "savename": "./models/CIFAR/ResNet50.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet101"
+            },
+            "logfilename": "./log/CIFAR/ResNet101.log",
+            "savename": "./models/CIFAR/ResNet101.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 32,
+            "test_batch_size": 16
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet152"
+            },
+            "logfilename": "./log/CIFAR/ResNet152.log",
+            "savename": "./models/CIFAR/ResNet152.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 32,
+            "test_batch_size": 16
+        }
+    ]
+}

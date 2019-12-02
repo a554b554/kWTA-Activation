@@ -1,0 +1,99 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.2,
+                "path":"./models/CIFAR_ft/spResNet18_sp0.2.pth"
+            },
+            "logfilename": "./log/CIFAR_ft/spResNet18_ft.log",
+            "savename": "./models/CIFAR_ft/spResNet18_ft.pth",
+            "epoch": 70,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.001,
+            "momentum": 0.9,
+            "epoch1_lr": 0.001,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 2000,
+            "train_batch_size": 256,
+            "test_batch_size": 32,
+            "finetune":{
+                "start_epoch":0,
+                "adjust_epoch":2,
+                "sp_step":0.005,
+                "savepath":"./model/CIFAR_ft/spResNet18_ft",
+                "init_sp":0.2
+            }
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spDenseNet121",
+                "sp": 0.2,
+                "path":"./models/CIFAR_ft/spDenseNet121_sp0.2.pth"
+            },
+            "logfilename": "./log/CIFAR_ft/spDenseNet121_ft.log",
+            "savename": "./models/CIFAR_ft/spDenseNet121_ft.pth",
+            "epoch": 70,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.001,
+            "momentum": 0.9,
+            "epoch1_lr": 0.001,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 2000,
+            "train_batch_size": 128,
+            "test_batch_size": 32,
+            "finetune":{
+                "start_epoch":0,
+                "adjust_epoch":2,
+                "sp_step":0.005,
+                "savepath":"./model/CIFAR_ft/spDenseNet121_ft",
+                "init_sp":0.2
+            }
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "sp": 0.2,
+                "depth":22,
+                "width":12,
+                "path":"./models/CIFAR_ft/spWideResNet_d22_w12_sp0.2.pth"
+            },
+            "logfilename": "./log/CIFAR_ft/spWideResNet_d22_w12_sp0.2_ft.log",
+            "savename": "./models/CIFAR_ft/spWideResNet_d22_w12_sp0.2_ft.pth",
+            "epoch": 70,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.001,
+            "momentum": 0.9,
+            "epoch1_lr": 0.001,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 2000,
+            "train_batch_size": 256,
+            "test_batch_size": 32,
+            "finetune":{
+                "start_epoch":0,
+                "adjust_epoch":2,
+                "sp_step":0.005,
+                "savepath":"./model/CIFAR_ft/spWideResNet_d22_w12_sp0.2_ft",
+                "init_sp":0.2
+            }
+        }
+    ]
+}

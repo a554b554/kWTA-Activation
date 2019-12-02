@@ -1,0 +1,51 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet18"
+            },
+            "adv_train": {
+                "attack": "untarg1"
+            },
+            "logfilename": "./log/CIFAR/ResNet18_b_adv.log",
+            "savename": "./models/CIFAR/ResNet18_b_adv.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "ResNet18"
+            },
+            "logfilename": "./log/CIFAR/ResNet18_b.log",
+            "savename": "./models/CIFAR/ResNet18_b.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        }
+    ]
+}

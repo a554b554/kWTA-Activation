@@ -1,0 +1,25 @@
+{
+    "lists":[
+        {
+            "name":"boundary",
+            "n_test":1000,
+            "epsilon":0.031,
+            "iterations":20,
+            "initial_num_evals":100,
+            "max_num_evals":100
+            
+        },
+        {
+            "name":"single",
+            "n_test":1000,
+            "epsilon":1,
+            "max_pixels":500
+            
+        },
+        {
+            "name":"local",
+            "n_test":1000,
+            "epsilon":0.031
+        }
+    ]
+}

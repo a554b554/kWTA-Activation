@@ -1,0 +1,25 @@
+{
+    "lists":[
+        {
+            "name":"spDenseNet121",
+            "sp":0.09,
+            "path":"data_remote/models/CIFAR_ft/spDenseNet121_ft_sp0.09.pth",
+            "dataset":"CIFAR"
+        },
+        {
+            "name":"spResNet18",
+            "sp":0.1,
+            "path":"data_remote/models/CIFAR_ft/spResNet18_ft/spDenseNet121_ft_sp0.08.pth",
+            "dataset":"CIFAR"
+        }, 
+        {
+            "name":"spWideResNet",
+            "sp":0.1,
+            "depth":22,
+            "width":12,
+            "path":"data_remote/models/CIFAR_ft/spWideResNet_d22_w12_sp0.2_ft_sp0.1.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}
+

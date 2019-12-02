@@ -1,0 +1,27 @@
+{
+    "jobs": [
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet152",
+                "sp": 0.1
+            },
+            "logfilename": "./log/ImageNet/spResNet152_sp0.1.log",
+            "savename": "./models/ImageNet/spResNet152_sp0.1.log",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 32,
+            "test_batch_size": 32
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "jobs": [
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.2
+            },
+            "logfilename": "./log/SVHN/spResNet18_sp0.2.log",
+            "savename": "./models/SVHN/spResNet18_sp0.2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.1
+            },
+            "logfilename": "./log/SVHN/spResNet18_sp0.1.log",
+            "savename": "./models/SVHN/spResNet18_sp0.1.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.07
+            },
+            "logfilename": "./log/SVHN/spResNet18_sp0.07.log",
+            "savename": "./models/SVHN/spResNet18_sp0.07.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.047,
+            "alpha": 0.01,
+            "model": {
+                "name": "spResNet18",
+                "sp": 0.03
+            },
+            "logfilename": "./log/SVHN/spResNet18_sp0.03.log",
+            "savename": "./models/SVHN/spResNet18_sp0.03.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 512,
+            "test_batch_size": 32
+        }
+    ]
+}

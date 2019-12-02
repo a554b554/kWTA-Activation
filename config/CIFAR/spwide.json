@@ -1,0 +1,316 @@
+{
+    "jobs": [
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 6,
+                "sp": 0.2
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w6_sp0.2.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w6_sp0.2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 6,
+                "sp": 0.1
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w6_sp0.1.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w6_sp0.1.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 6,
+                "sp": 0.05
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w6_sp0.05.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w6_sp0.05.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 8,
+                "sp": 0.2
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w8_sp0.2.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w8_sp0.2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 8,
+                "sp": 0.1
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w8_sp0.1.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w8_sp0.1.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 8,
+                "sp": 0.05
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w8_sp0.05.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w8_sp0.05.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 10,
+                "sp": 0.2
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w10_sp0.2.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w10_sp0.2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 10,
+                "sp": 0.1
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w10_sp0.1.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w10_sp0.1.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 10,
+                "sp": 0.05
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w10_sp0.05.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w10_sp0.05.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 12,
+                "sp": 0.2
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w12_sp0.2.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w12_sp0.2.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 12,
+                "sp": 0.1
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w12_sp0.1.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w12_sp0.1.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        },
+        {
+            "eps": 0.031,
+            "alpha": 0.007,
+            "model": {
+                "name": "spWideResNet",
+                "depth": 22,
+                "width": 12,
+                "sp": 0.05
+            },
+            "logfilename": "./log/CIFAR/spWideResNet_d22_w12_sp0.05.log",
+            "savename": "./models/CIFAR/spWideResNet_d22_w12_sp0.05.pth",
+            "epoch": 100,
+            "epoch1": 60,
+            "epoch2": 80,
+            "lr": 0.1,
+            "momentum": 0.9,
+            "epoch1_lr": 0.01,
+            "epoch2_lr": 0.001,
+            "test_attack": [
+                "untarg1",
+                "untarg2"
+            ],
+            "n_test_adv": 1000,
+            "train_batch_size": 64,
+            "test_batch_size": 32
+        }
+    ]
+}

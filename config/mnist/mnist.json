@@ -1,0 +1,12 @@
+{
+    "jobs":[
+        {
+            "model":{
+                "name":"DNN",
+                "hidden_size":20000
+            },
+            "eps":0.3,
+            "alpha": 0.01
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "lists":[
+        {
+            "name":"spDenseNet121",
+            "sp":0.1,
+            "path":"models/CIFAR/transfer/spDenseNet121_sp0.1_adv.pth",
+            "dataset":"CIFAR"
+        }
+    ]
+}

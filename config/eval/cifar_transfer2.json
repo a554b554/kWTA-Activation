@@ -1,0 +1,28 @@
+{
+    "source_models":{
+        "lists":[
+            {
+                "name":"ResNet18",
+                "path":"models/CIFAR/transfer/ResNet18.pth"
+            },
+            {
+                "name":"ResNet18",
+                "path":"models/CIFAR/transfer/ResNet18_adv2.pth"
+            }
+        ]
+    },
+    "target_models":{
+        "lists":[
+
+            {
+                "name":"spDenseNet121",
+                "sp":0.1,
+                "path":"models/CIFAR/transfer/spDenseNet121_sp0.1_adv.pth"
+            }
+
+        ]
+    },
+    "dataset":"CIFAR",
+    "logfilename":"log/eval/transfer_cifar.log"
+}
+
