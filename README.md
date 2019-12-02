@@ -1,6 +1,6 @@
 # Resisting Adversarial Attacks by k-Winners-Take-All
 
-This is the code for the paper "[Resisting Adversarial Attacks by *k*-Winners-Take-All](https://arxiv.org/abs/1905.10510)" by [Chang Xiao](http://chang.engineer), [Peilin Zhong](http://www.cs.columbia.edu/~peilin/) and [Changxi Zheng](http://www.cs.columbia.edu/~cxz/index.htm) (Columbia University).
+This is the code for the paper "[Enhancing Adversarial Defense by *k*-Winners-Take-All](https://arxiv.org/abs/1905.10510)" by [Chang Xiao](http://chang.engineer), [Peilin Zhong](http://www.cs.columbia.edu/~peilin/) and [Changxi Zheng](http://www.cs.columbia.edu/~cxz/index.htm) (Columbia University).
 
 ## Requirements
 * pytorch (1.0.0)
