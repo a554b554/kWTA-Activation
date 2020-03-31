@@ -4,7 +4,6 @@ import torch.nn.functional as F
 import numpy as np
 from matplotlib import pyplot as plt
 import torchvision
-from kWTA import cwl2
 
 def gen_rand_labels(y, num_classes):
     targets = torch.randint_like(y, low=0, high=num_classes)
@@ -271,26 +270,6 @@ def deepfool(model, X, y, epsilon=0.1, num_iter=50):
     
     return delta.detach()
 
-def cw_l2_random_label(model, X, y, num_classes=10, confidence=20,
-             debug=False, randomize=False, max_steps=1000):
-    targets = gen_rand_labels(y, num_classes)
-
-    attack = cwl2.AttackCarliniWagnerL2(num_classes=num_classes,
-    confidence=confidence, debug=debug, randomize=randomize, max_steps=max_steps)
-    return attack.run(model, X, targets)
-
-# def cw_l2(model, X, targets, c, kappa=0, alpha=0.01, num_iter=20):
-#     omega = torch.zeros_like(X, requires_grad=True)
-
-
-#     for i in range(num_iter):
-#         tan_omega = F.tanh(omega)
-#         delta = 0.5*(tan_omega+1) - x
-
-#         loss1 = torch.norm(delta, p=2, dim=1)
-
-#         logits = model(X+delta)
-#         target_logits = logits[:,:]
 
 
 def one_pixel_perturb(p, img):
